@@ -4,7 +4,7 @@
 ## Homework 4
 ## Due: Monday March 6 before midnight on GitHub Classroom
 
-__Question 1 (60%):__ Big Data: 
+__Question 1 (60%) Big Data:__ 
 
 From [ProPublica](https://projects.propublica.org/nursing-homes/), download the unredacted version of nursing home inspection reports (link at bottom of page). It should download a zip file named "nursing-homes-unredacted-April2019.zip." 
 1. Unzip the files (this can be done manually or in R) in a folder __outside__ of the one you will upload to Github. Your code should allow the user to input the name of the path where the unzipped CSV files are.
@@ -14,7 +14,7 @@ From [ProPublica](https://projects.propublica.org/nursing-homes/), download the 
 5. Make a scatter plot of the time saved by using partitioning, where each state is one point on the scatter plot. Let the x-axis be the total number of observations in the dataset after filtering for that state. Then create a plot depicting how many times faster working with the partitioned data is as opposed to the non-partitioned data. Is there a relationship with the size of the filtered data? Note that this might take awhile to run! Save the scatter plot as a .png to your repo.
 6. Then let the y-axis be total time without partitioning, total time elapsed with partitioning, and the difference in time between the two.  Save the scatter plot as another .png to your repo. What is the relationship between the time saved by using parquets and the size of the filtered data? Write the answer in your updated README file.
 
-__Question 2 (40%):__ Python: 
+__Question 2 (40%) Python:__: 
 Combine your answers to the following 3 questions into one .py file.
 
   1. Write code that begins with a Python list, containing some number of integers or floats. From the original list, perform each of these separately:

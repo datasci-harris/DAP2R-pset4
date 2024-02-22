@@ -4,7 +4,7 @@
 ## Homework 4
 ## Due: Monday March 4 before midnight on GitHub Classroom
 
-__Question 1 Big Data (50%) :__
+__Question 1 Big Data (50%):__
 
 From [ProPublica](https://projects.propublica.org/nursing-homes/), download the unredacted version of nursing home inspection reports (link at bottom of page). It should download a zip file named "nursing-homes-unredacted-April2019.zip." 
 1. Unzip the files (this can be done manually or in R) in a folder __outside__ of the one you will upload to Github. Your code should allow the user to input the name of the path where the unzipped CSV files are.

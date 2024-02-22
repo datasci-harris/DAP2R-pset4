@@ -20,7 +20,7 @@ def myfunction1(mylist, mynumber2):
             print("Invalid input.")
             continue
         
-        mynumber1 += 1
+        mynumber1 = mynumber1 + 1
         
         if mystring2 == mystring1:
             print(f"Congratulations! You won in {mynumber1} attempts.")
@@ -29,9 +29,9 @@ def myfunction1(mylist, mynumber2):
             mymessage = ''
             for i in range(5):
                 if mystring2[i] == mystring1[i]:
-                    mymessage += mystring1[i]
+                    mymessage = mymessage + mystring1[i]
                 else:
-                    mymessage += '_'
+                    mymessage = mymessage + '_'
             mynumber3 = mynumber2 - mynumber1
             print(f"Wrong! Here's what you got right: {mymessage}")  
             print(f"You have {mynumber3} attempts left.")

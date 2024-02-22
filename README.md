@@ -6,7 +6,7 @@
 
 __Question 1 Big Data (50%) :__
 
-The nursing-home-inspect-data.zip contains the unredacted text of inspection reports for nursing homes, which were acquired by [ProPublica](https://projects.propublica.org/nursing-homes/) through a Freedom of Information Act request. 
+From [ProPublica](https://projects.propublica.org/nursing-homes/), download the unredacted version of nursing home inspection reports (link at bottom of page). It should download a zip file named "nursing-homes-unredacted-April2019.zip." 
 1. Unzip the files (this can be done manually or in R) in a folder __outside__ of the one you will upload to Github. Your code should allow the user to input the name of the path where the unzipped CSV files are.
 2. Load the CSVs together as one parquet. The code to do this should be generalized so that if the folder of CSVs is updated with more files, the code will be able to handle this. 
 3. Then partition the data by state, and write the partitioned dataset to disk as a series of parquets. Again, save this to a folder  __outside__ of the one you will upload to Github. Load the partitioned datasets as a new parquet.

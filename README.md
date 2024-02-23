@@ -2,7 +2,7 @@
 ## Winter Quarter 2024
 
 ## Homework 4
-## Due: Monday March 4 before midnight on GitHub Classroom
+## Due: Wednesday March 6 before midnight on GitHub Classroom
 
 __Question 1 Big Data (50%):__
 

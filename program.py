@@ -11,7 +11,7 @@ def myfunction1(mylist, mynumber2):
     mynumber1 = 0
 
     print("Welcome!")
-    print("You have {mynumber2} attempts.")
+    print(f"You have {mynumber2} attempts.")
     
     while mynumber1 < mynumber2:
         mystring2 = input("Enter your guess: ").lower().strip()

@@ -1,8 +1,8 @@
 # Data Skills 2 - R
-## Winter Quarter 2024
+## Fall Quarter 2024
 
 ## Homework 4
-## Due: Wednesday March 6 before midnight on GitHub Classroom
+## Due: November 30 before midnight on Gradescope
 
 __Question 1 Big Data (50%):__
 
